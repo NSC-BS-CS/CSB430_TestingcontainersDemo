@@ -1,0 +1,15 @@
+{
+  "name": "testcontainers-demo",
+  "version": "1.0.0",
+  "description": "Testcontainers demo with PostgreSQL",
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@testcontainers/postgresql": "^11.12.0",
+    "pg": "^8.11.0"
+  },
+  "devDependencies": {
+    "testcontainers": "^10.0.0"
+  }
+}
